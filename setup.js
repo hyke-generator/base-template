@@ -6,13 +6,9 @@ const writeFile = (fileName, data) => fs.writeFileSync(path.join(__dirname, file
 
 
 function setup() {
-  console.log('🔄 Setting up...');
-
   deleteFile('.flowconfig');
   deleteFile('App.js');
   deleteFile('setup.js');
-
-  console.log(`✅ Setup completed!`);
 }
 
 setup();
