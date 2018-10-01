@@ -6,9 +6,10 @@ const writeFile = (fileName, data) => fs.writeFileSync(path.join(__dirname, file
 
 
 function setup() {
-  deleteFile('.flowconfig');
-  deleteFile('App.js');
-  deleteFile('setup.js');
+    deleteFile('.flowconfig');
+    deleteFile('App.js');
+    deleteFile('setup.js');
+    deleteFile('README.md');
 }
 
 setup();
